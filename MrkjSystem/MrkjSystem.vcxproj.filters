@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="登录界面">
+      <UniqueIdentifier>{2c6a754e-2064-47f5-a74c-e81b9d823695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库信息">
+      <UniqueIdentifier>{b20aa547-29d4-4bc3-b75e-d90ecafddb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="股票仿真界面">
+      <UniqueIdentifier>{4cde613c-bfa8-4cbe-a8fc-18d2c64100e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统功能">
+      <UniqueIdentifier>{2c92de24-0106-46bb-94a3-4026000c231e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="查询功能">
+      <UniqueIdentifier>{dbf9f717-b2c3-4068-b81e-58937154af5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="即时数据">
+      <UniqueIdentifier>{e1443b38-3ab8-42a5-bec1-ba81c8b95b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具">
+      <UniqueIdentifier>{e3f18ba7-203e-463c-8c73-8623902d617d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置文件">
+      <UniqueIdentifier>{7b5571b0-fabc-42e0-b560-c9ded3c30808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务类">
+      <UniqueIdentifier>{4ad17172-bd92-4baa-9d87-666323328190}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMrkjSystemApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMrkjSystemDlg.h">
+      <Filter>股票仿真界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfig.h">
+      <Filter>配置文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDayDataEntry.h">
+      <Filter>数据库信息</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCalc.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCalc01.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogLogin.h">
+      <Filter>登录界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogScreenShot.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CMrkjDatabase.h">
+      <Filter>数据库信息</Filter>
+    </ClInclude>
+    <ClInclude Include="CTableFiles.h">
+      <Filter>数据库信息</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenTools.h">
+      <Filter>服务类</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringServices.h">
+      <Filter>服务类</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolServices.h">
+      <Filter>服务类</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCalc02.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCalc03.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCalc04.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogSetting.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCalc05.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMrkjSystemApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMrkjSystemDlg.cpp">
+      <Filter>股票仿真界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfig.cpp">
+      <Filter>配置文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDayDataEntry.cpp">
+      <Filter>数据库信息</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCalc.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCalc01.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogLogin.cpp">
+      <Filter>登录界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogScreenShot.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CMrkjDatabase.cpp">
+      <Filter>数据库信息</Filter>
+    </ClCompile>
+    <ClCompile Include="CTableFiles.cpp">
+      <Filter>数据库信息</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolServices.cpp">
+      <Filter>服务类</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCalc02.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCalc03.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCalc04.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCalc05.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogSetting.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MrkjSystem.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MrkjSystem.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MrkjSystem.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\shot.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
