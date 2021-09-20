@@ -202,10 +202,21 @@ END_MESSAGE_MAP()
 BOOL CMrkjSystemDlg::OnInitDialog()
 {
 	CDialogEx::OnInitDialog();
+<<<<<<< HEAD
+	// 设置此对话框的图标。  当应用程序主窗口不是对话框时，框架将自动
+// 执行此操作
+	SetIcon(m_hIcon, TRUE);         // 设置大图标
+	SetIcon(m_hIcon, FALSE);        // 设置小图标
+
+	// IDM_ABOUTBOX 必须在系统命令范围内。
+	//ASSERT((IDM_ABOUTBOX & 0xFFF0) == IDM_ABOUTBOX);
+	//ASSERT(IDM_ABOUTBOX < 0xF000);
+=======
 
 	// IDM_ABOUTBOX 必须在系统命令范围内。
 	ASSERT((IDM_ABOUTBOX & 0xFFF0) == IDM_ABOUTBOX);
 	ASSERT(IDM_ABOUTBOX < 0xF000);
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 
 	CMenu* pSysMenu = GetSystemMenu(FALSE);
 	if (pSysMenu != nullptr)
