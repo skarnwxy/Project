@@ -2,9 +2,15 @@
 // Microsoft Visual C++ 生成的包含文件。
 // 供 MrkjSystem.rc 使用
 //
+<<<<<<< HEAD
+#define IDD_ABOUTBOX           99
+#define IDM_ABOUTBOX           100
+#define IDS_ABOUTBOX           101
+=======
 #define IDM_ABOUTBOX                    0x0010
 #define IDD_ABOUTBOX                    100
 #define IDS_ABOUTBOX                    101
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define IDD_MRKJSYSTEM_DIALOG           102
 #define IDP_SOCKETS_INIT_FAILED         103
 #define IDS_STRING_MAINDLG_TITLE        104
@@ -38,24 +44,37 @@
 #define IDD_DIALOG_DATA_MAINTENANCE     138
 #define IDD_DIALOG_CALC                 140
 #define IDD_DIALOG_DATA_IMPEXP          141
+<<<<<<< HEAD
+=======
 #define IDR_MENU1                       141
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define IDD_DIALOG_DATA_KIND            142
 #define IDD_DIALOG_HOSTORY_DATA         143
 #define IDD_DIALOG_KIND_SELECT          144
 #define IDD_DIALOG_REALTIME_DATA        145
 #define IDD_DIALOG_SETTING              146
+<<<<<<< HEAD
+#define IDD_DIALOG1                     152
+=======
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define IDD_DIALOG2                     153
 #define IDD_DIALOG3                     154
 #define IDD_DIALOG4                     155
 #define IDD_DIALOG5                     156
+<<<<<<< HEAD
+=======
 #define IDD_DIALOG1                     157
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define IDB_BITMAP_STOCK                160
 #define IDB_BITMAP_KIND                 161
 #define IDD_DIALOG_HISTORY_SUB_01       162
 #define IDB_BITMAP_CALC                 162
 #define IDD_DIALOG_HISTORY_SUB_02       163
 #define IDD_DIALOG_KEYBD_QUERY          166
+<<<<<<< HEAD
+=======
 #define IDD_DIALOG8                     168
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define IDD_DIALOG_SCREEN_SHOT          169
 #define IDI_ICON_SHOT                   171
 #define IDC_SHOT_CUR                    172
@@ -83,6 +102,16 @@
 #define IDC_BUTTON3                     1006
 #define IDC_BUTTON_SAVE                 1006
 #define IDC_EDIT3                       1006
+<<<<<<< HEAD
+#define IDC_EDIT11                      1116
+#define IDC_BUTTON4                     1007
+#define IDC_BUTTON_DEL                  1007
+#define IDC_EDIT4                       1117
+//#define IDC_EDIT16                      1007
+#define IDC_LIST1                       1008
+#define IDC_LIST_DATA                   1008
+#define IDC_EDIT5                       1118
+=======
 #define IDC_EDIT11                      1006
 #define IDC_BUTTON4                     1007
 #define IDC_BUTTON_DEL                  1007
@@ -91,6 +120,7 @@
 #define IDC_LIST1                       1008
 #define IDC_LIST_DATA                   1008
 #define IDC_EDIT5                       1008
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define IDC_BUTTON5                     1008
 #define IDC_DATETIMEPICKER1             1009
 #define IDC_DATETIMEPICKER_DATESTART    1009
@@ -183,6 +213,35 @@
 #define IDC_LIST_FILTER_CURR2           1058
 #define IDC_LIST_FILTER_KIND            1058
 #define ID_32771                        32771
+<<<<<<< HEAD
+#define ID_32772                        32772
+#define ID_32773                        32773
+#define ID_32774                        32774
+#define ID_32775                        32775
+#define ID_32776                        32776
+#define ID_32777                        32777
+#define ID_32778                        32778
+#define ID_32779                        32779
+#define ID_32780                        32780
+#define ID_32781                        32781
+#define ID_32782                        32782
+#define ID_32783                        32783
+#define ID_MENU_REALTIME_DATA           32784
+#define ID_MENU_DATA_MAINTENANCE        32785
+#define ID_MENU_DATA_IMPEXP             32786
+#define ID_MENU_DATA_KIND               32787
+#define ID_MENU_PRINT                   32788
+#define ID_MENU_EXIT_SYS                32789
+#define ID_MENU_KIND_SELECT             32790
+#define ID_MENU_HOSTORY_DATA            32791
+#define ID_MENU_CALC                    32792
+#define ID_MENU_SCREEN_SHOT             32793
+#define ID_MENU_SETTING                 32794
+#define ID_MENU_HELP                    32795
+#define ID_MENU_ABOUT                   32796
+#define ID_32797                        32797
+#define ID_MENU_REAL_HUSHEN             32798
+=======
 #define ID_32784                        32771
 #define ID_32772                        32772
 #define ID_32785                        32772
@@ -238,14 +297,21 @@
 #define ID_32811                        32797
 #define ID_MENU_REAL_HUSHEN             32798
 #define ID_32812                        32798
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
+<<<<<<< HEAD
+#define _APS_NEXT_RESOURCE_VALUE        183
+#define _APS_NEXT_COMMAND_VALUE         32799
+#define _APS_NEXT_CONTROL_VALUE         1058
+=======
 #define _APS_NEXT_RESOURCE_VALUE        172
 #define _APS_NEXT_COMMAND_VALUE         32799
 #define _APS_NEXT_CONTROL_VALUE         1006
+>>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
