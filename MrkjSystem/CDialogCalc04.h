@@ -2,7 +2,6 @@
 
 #pragma once
 #include <afxdialogex.h>
-<<<<<<< HEAD
 
 // CDialogCalc04 ¶Ô»°¿ò
 class CDialogCalc04 : public CDialogEx
@@ -71,11 +70,3 @@ public:
 	virtual BOOL PreTranslateMessage(MSG* pMsg);
 };
 
-
-=======
-class CDialogCalc04 : public CDialogEx
-{
-
-};
-
->>>>>>> bdbfb7ee2e33b6f09b557d777fb0b6dc3d1457cf
