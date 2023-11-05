@@ -21,7 +21,6 @@ class CDialogSetting : public CDialogEx
 public:
 	CDialogSetting(CWnd* pParent = NULL);   // 标准构造函数
 	virtual ~CDialogSetting();
-
 	// 对话框数据
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_DIALOG_SETTING };
@@ -114,4 +113,3 @@ public:
 	afx_msg void OnDestroy();
 
 };
-

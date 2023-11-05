@@ -26,7 +26,7 @@ CMrkjDatabase::CMrkjDatabase()
 		return;
 	}
 	// 设置连接超时时间=5秒
-	m_pConnection->ConnectionTimeout = 5;
+	m_pConnection->ConnectionTimeout = 50;
 }
 
 CMrkjDatabase::~CMrkjDatabase() {

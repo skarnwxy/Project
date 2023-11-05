@@ -7,8 +7,6 @@
   * @note     
   * @see      
  */
-
-
 #include "pch.h"
 #include "CDialogSetting.h"
 #include "Resource.h"
